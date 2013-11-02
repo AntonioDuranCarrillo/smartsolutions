@@ -81,7 +81,6 @@ public class UI extends javax.swing.JFrame {
         botonEmpleo = new javax.swing.JButton();
         jPrincipal = new javax.swing.JPanel();
         jPrincipalScroll = new javax.swing.JScrollPane();
-        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Diaketas");
@@ -169,11 +168,7 @@ public class UI extends javax.swing.JFrame {
 
         jPrincipal.setLayout(new java.awt.CardLayout());
         getContentPane().add(jPrincipal, java.awt.BorderLayout.CENTER);
-
-        jLabel1.setText("Antonio");
-        jPrincipalScroll.setViewportView(jLabel1);
-
-        getContentPane().add(jPrincipalScroll, java.awt.BorderLayout.CENTER);
+        getContentPane().add(jPrincipalScroll, java.awt.BorderLayout.LINE_START);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -240,7 +235,6 @@ public class UI extends javax.swing.JFrame {
     private javax.swing.JButton botonDonantes;
     private javax.swing.JButton botonEmpleo;
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jMenuBotones;
     public static javax.swing.JPanel jPrincipal;
     private javax.swing.JScrollPane jPrincipalScroll;
